@@ -35,6 +35,8 @@ import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
 import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
+import javax.swing.JComponent;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SConcept;
 
@@ -68,6 +70,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createCollection_1());
     editorCell.addEditorCell(createRefNode_0());
     editorCell.addEditorCell(createConstant_1());
+    editorCell.addEditorCell(createJComponent_0());
     return editorCell;
   }
   private EditorCell createCollection_1() {
@@ -174,6 +177,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setCellId("Constant_7wjwco_c0");
     editorCell.setDefaultText("");
     return editorCell;
+  }
+  private EditorCell createJComponent_0() {
+    EditorCell editorCell = EditorCell_Component.createComponentCell(getEditorContext(), myNode, _QueryFunction_JComponent_7wjwco_a3a(), "JComponent_7wjwco_d0");
+    editorCell.setCellId("JComponent_7wjwco_d0_0");
+    return editorCell;
+  }
+  private JComponent _QueryFunction_JComponent_7wjwco_a3a() {
+    return ButtonFactory.createToHTMLButton(getEditorContext(), myNode);
   }
 
   private static final class PROPS {

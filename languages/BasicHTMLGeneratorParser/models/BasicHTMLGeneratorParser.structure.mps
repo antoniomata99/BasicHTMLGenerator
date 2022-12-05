@@ -307,28 +307,13 @@
     <property role="TrG5h" value="ColorVersion" />
     <node concept="25R33" id="2LRh7kxw0Mn" role="25R1y">
       <property role="3tVfz5" value="3204104929761299607" />
-      <property role="TrG5h" value="white" />
-      <property role="1L1pqM" value="WHITE" />
+      <property role="TrG5h" value="primary" />
+      <property role="1L1pqM" value="is-primary" />
     </node>
-    <node concept="25R33" id="2LRh7kxw0Mo" role="25R1y">
-      <property role="3tVfz5" value="3204104929761299608" />
-      <property role="TrG5h" value="black" />
-      <property role="1L1pqM" value="BLACK" />
-    </node>
-    <node concept="25R33" id="2LRh7kxw0Mr" role="25R1y">
-      <property role="3tVfz5" value="3204104929761299611" />
-      <property role="TrG5h" value="green" />
-      <property role="1L1pqM" value="GREEN" />
-    </node>
-    <node concept="25R33" id="2LRh7kxw0Mv" role="25R1y">
-      <property role="3tVfz5" value="3204104929761299615" />
-      <property role="TrG5h" value="pink" />
-      <property role="1L1pqM" value="PINK" />
-    </node>
-    <node concept="25R33" id="2LRh7kxw0MI" role="25R1y">
-      <property role="3tVfz5" value="3204104929761299630" />
-      <property role="TrG5h" value="yellow" />
-      <property role="1L1pqM" value="YELLOW" />
+    <node concept="25R33" id="43JvheWayQ5" role="25R1y">
+      <property role="3tVfz5" value="4679096061575966085" />
+      <property role="TrG5h" value="link" />
+      <property role="1L1pqM" value="is-link" />
     </node>
   </node>
 </model>

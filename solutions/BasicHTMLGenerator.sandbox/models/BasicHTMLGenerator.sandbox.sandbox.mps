@@ -56,37 +56,33 @@
       <concept id="3204104929760939784" name="BasicHTMLGeneratorParser.structure.ElementBoton" flags="ng" index="d3sHX">
         <child id="3204104929760939886" name="botonTag" index="d3sGr" />
       </concept>
-      <concept id="3204104929760939786" name="BasicHTMLGeneratorParser.structure.Color" flags="ng" index="d3sHZ">
-        <property id="3204104929761299648" name="version" index="dXOyP" />
-      </concept>
+      <concept id="3204104929760939786" name="BasicHTMLGeneratorParser.structure.Color" flags="ng" index="d3sHZ" />
     </language>
   </registry>
-  <node concept="bUyau" id="2LRh7kxvC0p">
-    <node concept="bUyap" id="2LRh7kxvC0q" role="bUyao">
-      <node concept="d3sE9" id="2LRh7kxvC0r" role="d3sHY">
-        <node concept="d3sE8" id="2LRh7kxvC0s" role="d3sH$">
-          <node concept="d3sHF" id="2LRh7kxvC0t" role="d3sHD">
-            <node concept="d3sEb" id="2LRh7kxvC0u" role="d2N_$">
-              <node concept="d3sEa" id="2LRh7kxvC0v" role="d3sHE">
-                <node concept="d3sHP" id="2LRh7kxvC0w" role="d3sGR">
-                  <node concept="d3sHO" id="2LRh7kxvC0x" role="d3sGX" />
+  <node concept="bUyau" id="43JvheWcLzu">
+    <node concept="bUyap" id="43JvheWcLzv" role="bUyao">
+      <node concept="d3sE9" id="43JvheWcLzw" role="d3sHY">
+        <node concept="d3sE8" id="43JvheWcLzx" role="d3sH$">
+          <node concept="d3sHF" id="43JvheWcLzy" role="d3sHD">
+            <node concept="d3sEb" id="43JvheWcLzz" role="d2N_$">
+              <node concept="d3sEa" id="43JvheWcLz$" role="d3sHE">
+                <node concept="d3sHP" id="43JvheWcLz_" role="d3sGR">
+                  <node concept="d3sHO" id="43JvheWcLzA" role="d3sGX" />
                 </node>
               </node>
-              <node concept="d3sHR" id="2LRh7kxvC0y" role="d3sH6">
-                <node concept="d3sHQ" id="2LRh7kxvC0z" role="d3sGw">
-                  <node concept="d3sHL" id="2LRh7kxvC0$" role="d3sGy">
-                    <node concept="d3sHK" id="2LRh7kxvC0_" role="d3sGI">
-                      <node concept="d3sHN" id="2LRh7kxvC0A" role="d3sGh" />
+              <node concept="d3sHR" id="43JvheWcLzB" role="d3sH6">
+                <node concept="d3sHQ" id="43JvheWcLzC" role="d3sGw">
+                  <node concept="d3sHL" id="43JvheWcLzD" role="d3sGy">
+                    <node concept="d3sHK" id="43JvheWcLzE" role="d3sGI">
+                      <node concept="d3sHN" id="43JvheWcLzF" role="d3sGh" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="d3sHM" id="2LRh7kxvC0B" role="d3sH3">
-                <node concept="d3sHX" id="2LRh7kxvUzg" role="d3sGp">
-                  <node concept="d3sHW" id="2LRh7kxvUzh" role="d3sGr">
-                    <node concept="d3sHZ" id="2LRh7kxvUzi" role="d3sGc">
-                      <property role="dXOyP" value="2LRh7kxw0Mo/black" />
-                    </node>
+              <node concept="d3sHM" id="43JvheWcLzG" role="d3sH3">
+                <node concept="d3sHX" id="43JvheWcLzH" role="d3sGp">
+                  <node concept="d3sHW" id="43JvheWcLzI" role="d3sGr">
+                    <node concept="d3sHZ" id="43JvheWcLzJ" role="d3sGc" />
                   </node>
                 </node>
               </node>
