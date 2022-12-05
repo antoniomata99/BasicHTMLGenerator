@@ -526,7 +526,7 @@
         <property role="3F0ifm" value="'" />
       </node>
       <node concept="3F0A7n" id="2LRh7kxvFNR" role="3EZMnx">
-        <ref role="1NtTu8" to="ics0:2LRh7kxuCXE" resolve="text" />
+        <ref role="1NtTu8" to="ics0:2LRh7kxuCXE" resolve="nombre" />
       </node>
       <node concept="3F0ifn" id="2LRh7kxvFO1" role="3EZMnx">
         <property role="3F0ifm" value="'" />
@@ -547,7 +547,7 @@
         <property role="3F0ifm" value="'" />
       </node>
       <node concept="3F0A7n" id="2LRh7kxvFQf" role="3EZMnx">
-        <ref role="1NtTu8" to="ics0:2LRh7kxuCXE" resolve="text" />
+        <ref role="1NtTu8" to="ics0:43JvheWda1l" resolve="valor" />
       </node>
       <node concept="3F0ifn" id="2LRh7kxvFQD" role="3EZMnx">
         <property role="3F0ifm" value="'" />
@@ -612,7 +612,7 @@
         <property role="3F0ifm" value="'" />
       </node>
       <node concept="3F0A7n" id="2LRh7kxvU$D" role="3EZMnx">
-        <ref role="1NtTu8" to="ics0:2LRh7kxvUzZ" resolve="text" />
+        <ref role="1NtTu8" to="ics0:2LRh7kxvUzZ" resolve="nombre" />
       </node>
       <node concept="3F0ifn" id="2LRh7kxvU$P" role="3EZMnx">
         <property role="3F0ifm" value="'" />
@@ -663,7 +663,7 @@
         <property role="3F0ifm" value="'" />
       </node>
       <node concept="3F0A7n" id="2LRh7kxvUH9" role="3EZMnx">
-        <ref role="1NtTu8" to="ics0:2LRh7kxvUzZ" resolve="text" />
+        <ref role="1NtTu8" to="ics0:43JvheWdlzG" resolve="tipoBoton" />
       </node>
       <node concept="3F0ifn" id="2LRh7kxvUHR" role="3EZMnx">
         <property role="3F0ifm" value="'" />

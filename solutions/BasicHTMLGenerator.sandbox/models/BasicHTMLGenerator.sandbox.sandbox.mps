@@ -35,11 +35,15 @@
       </concept>
       <concept id="3204104929760939780" name="BasicHTMLGeneratorParser.structure.Opcion" flags="ng" index="d3sHL">
         <child id="3204104929760939867" name="opcionSelector" index="d3sGI" />
+        <child id="4679096061576714534" name="contenidoOpcion" index="3WQIgP" />
       </concept>
       <concept id="3204104929760939783" name="BasicHTMLGeneratorParser.structure.BotonsTag" flags="ng" index="d3sHM">
         <child id="3204104929760939884" name="elementBoton" index="d3sGp" />
       </concept>
-      <concept id="3204104929760939782" name="BasicHTMLGeneratorParser.structure.ContenidoOpcion" flags="ng" index="d3sHN" />
+      <concept id="3204104929760939782" name="BasicHTMLGeneratorParser.structure.ContenidoOpcion" flags="ng" index="d3sHN">
+        <property id="3204104929760939882" name="nombre" index="d3sGv" />
+        <property id="4679096061576650837" name="valor" index="3WQXP6" />
+      </concept>
       <concept id="3204104929760939777" name="BasicHTMLGeneratorParser.structure.EtiquetaTag" flags="ng" index="d3sHO" />
       <concept id="3204104929760939776" name="BasicHTMLGeneratorParser.structure.Etiqueta" flags="ng" index="d3sHP">
         <child id="3204104929760939848" name="etiquetaTag" index="d3sGX" />
@@ -59,30 +63,43 @@
       <concept id="3204104929760939786" name="BasicHTMLGeneratorParser.structure.Color" flags="ng" index="d3sHZ" />
     </language>
   </registry>
-  <node concept="bUyau" id="43JvheWcLzu">
-    <node concept="bUyap" id="43JvheWcLzv" role="bUyao">
-      <node concept="d3sE9" id="43JvheWcLzw" role="d3sHY">
-        <node concept="d3sE8" id="43JvheWcLzx" role="d3sH$">
-          <node concept="d3sHF" id="43JvheWcLzy" role="d3sHD">
-            <node concept="d3sEb" id="43JvheWcLzz" role="d2N_$">
-              <node concept="d3sEa" id="43JvheWcLz$" role="d3sHE">
-                <node concept="d3sHP" id="43JvheWcLz_" role="d3sGR">
-                  <node concept="d3sHO" id="43JvheWcLzA" role="d3sGX" />
+  <node concept="bUyau" id="43JvheWdUUS">
+    <node concept="bUyap" id="43JvheWdUUT" role="bUyao">
+      <node concept="d3sE9" id="43JvheWdUUU" role="d3sHY">
+        <node concept="d3sE8" id="43JvheWdUUV" role="d3sH$">
+          <node concept="d3sHF" id="43JvheWdUUW" role="d3sHD">
+            <node concept="d3sEb" id="43JvheWdUUX" role="d2N_$">
+              <node concept="d3sEa" id="43JvheWdUUY" role="d3sHE">
+                <node concept="d3sHP" id="43JvheWdUUZ" role="d3sGR">
+                  <node concept="d3sHO" id="43JvheWdUV0" role="d3sGX" />
                 </node>
               </node>
-              <node concept="d3sHR" id="43JvheWcLzB" role="d3sH6">
-                <node concept="d3sHQ" id="43JvheWcLzC" role="d3sGw">
-                  <node concept="d3sHL" id="43JvheWcLzD" role="d3sGy">
-                    <node concept="d3sHK" id="43JvheWcLzE" role="d3sGI">
-                      <node concept="d3sHN" id="43JvheWcLzF" role="d3sGh" />
+              <node concept="d3sHR" id="43JvheWdUV1" role="d3sH6">
+                <node concept="d3sHQ" id="43JvheWdUV2" role="d3sGw">
+                  <node concept="d3sHL" id="43JvheWdUV3" role="d3sGy">
+                    <node concept="d3sHK" id="43JvheWdUV4" role="d3sGI">
+                      <node concept="d3sHN" id="43JvheWdUV5" role="d3sGh">
+                        <property role="d3sGv" value="aaa" />
+                        <property role="3WQXP6" value="aaaa" />
+                      </node>
                     </node>
+                    <node concept="d3sHK" id="43JvheWdUVb" role="d3sGI">
+                      <node concept="d3sHN" id="43JvheWdUVc" role="d3sGh">
+                        <property role="3WQXP6" value="aaa" />
+                        <property role="d3sGv" value="aaaa" />
+                      </node>
+                    </node>
+                    <node concept="d3sHK" id="43JvheWdUVh" role="d3sGI">
+                      <node concept="d3sHN" id="43JvheWdUVi" role="d3sGh" />
+                    </node>
+                    <node concept="d3sHN" id="43JvheWdUV6" role="3WQIgP" />
                   </node>
                 </node>
               </node>
-              <node concept="d3sHM" id="43JvheWcLzG" role="d3sH3">
-                <node concept="d3sHX" id="43JvheWcLzH" role="d3sGp">
-                  <node concept="d3sHW" id="43JvheWcLzI" role="d3sGr">
-                    <node concept="d3sHZ" id="43JvheWcLzJ" role="d3sGc" />
+              <node concept="d3sHM" id="43JvheWdUV7" role="d3sH3">
+                <node concept="d3sHX" id="43JvheWdUV8" role="d3sGp">
+                  <node concept="d3sHW" id="43JvheWdUV9" role="d3sGr">
+                    <node concept="d3sHZ" id="43JvheWdUVa" role="d3sGc" />
                   </node>
                 </node>
               </node>

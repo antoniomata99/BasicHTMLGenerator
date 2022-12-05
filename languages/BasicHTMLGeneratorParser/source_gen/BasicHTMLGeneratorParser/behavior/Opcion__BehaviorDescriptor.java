@@ -13,28 +13,25 @@ import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
-import org.jetbrains.mps.openapi.language.SProperty;
 
-public final class EtiquetaTag__BehaviorDescriptor extends BaseBHDescriptor {
-  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f01L, "BasicHTMLGeneratorParser.structure.EtiquetaTag");
+public final class Opcion__BehaviorDescriptor extends BaseBHDescriptor {
+  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f04L, "BasicHTMLGeneratorParser.structure.Opcion");
 
-  public static final SMethod<String> interpreter_id43JvheW9DAT = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("interpreter").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).id("43JvheW9DAT").build();
+  public static final SMethod<String> interpreter_id43JvheWdVji = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("interpreter").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).id("43JvheWdVji").build();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(interpreter_id43JvheW9DAT);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(interpreter_id43JvheWdVji);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
 
-  /*package*/ static String interpreter_id43JvheW9DAT(@NotNull SNode __thisNode__) {
-    String placeholder = SPropertyOperations.getString(__thisNode__, PROPS.text$UHBY);
-    return String.format("<input class='input' type='text' placeholder='%s'>", placeholder);
+  /*package*/ static String interpreter_id43JvheWdVji(@NotNull SNode __thisNode__) {
+    String select = "<select>\n";
   }
 
-  /*package*/ EtiquetaTag__BehaviorDescriptor() {
+  /*package*/ Opcion__BehaviorDescriptor() {
   }
 
   @Override
@@ -50,7 +47,7 @@ public final class EtiquetaTag__BehaviorDescriptor extends BaseBHDescriptor {
     }
     switch (methodIndex) {
       case 0:
-        return (T) ((String) interpreter_id43JvheW9DAT(node));
+        return (T) ((String) interpreter_id43JvheWdVji(node));
       default:
         throw new BHMethodNotFoundException(this, method);
     }
@@ -78,9 +75,5 @@ public final class EtiquetaTag__BehaviorDescriptor extends BaseBHDescriptor {
   @Override
   public SAbstractConcept getConcept() {
     return CONCEPT;
-  }
-
-  private static final class PROPS {
-    /*package*/ static final SProperty text$UHBY = MetaAdapterFactory.getProperty(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f01L, 0x2c774475217a8f53L, "text");
   }
 }

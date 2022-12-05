@@ -19,22 +19,24 @@ import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
 
-public final class EtiquetaTag__BehaviorDescriptor extends BaseBHDescriptor {
-  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f01L, "BasicHTMLGeneratorParser.structure.EtiquetaTag");
+public final class ContenidoOpcion__BehaviorDescriptor extends BaseBHDescriptor {
+  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f06L, "BasicHTMLGeneratorParser.structure.ContenidoOpcion");
 
-  public static final SMethod<String> interpreter_id43JvheW9DAT = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("interpreter").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).id("43JvheW9DAT").build();
+  public static final SMethod<String> interpreter_id43JvheWdlUn = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("interpreter").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).id("43JvheWdlUn").build();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(interpreter_id43JvheW9DAT);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(interpreter_id43JvheWdlUn);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
 
-  /*package*/ static String interpreter_id43JvheW9DAT(@NotNull SNode __thisNode__) {
-    String placeholder = SPropertyOperations.getString(__thisNode__, PROPS.text$UHBY);
-    return String.format("<input class='input' type='text' placeholder='%s'>", placeholder);
+  /*package*/ static String interpreter_id43JvheWdlUn(@NotNull SNode __thisNode__) {
+    String nombre = SPropertyOperations.getString(__thisNode__, PROPS.nombre$V1ZU);
+    String valor = SPropertyOperations.getString(__thisNode__, PROPS.valor$leq1);
+
+    return String.format("<option value='%s'>%s</option>", valor, nombre);
   }
 
-  /*package*/ EtiquetaTag__BehaviorDescriptor() {
+  /*package*/ ContenidoOpcion__BehaviorDescriptor() {
   }
 
   @Override
@@ -50,7 +52,7 @@ public final class EtiquetaTag__BehaviorDescriptor extends BaseBHDescriptor {
     }
     switch (methodIndex) {
       case 0:
-        return (T) ((String) interpreter_id43JvheW9DAT(node));
+        return (T) ((String) interpreter_id43JvheWdlUn(node));
       default:
         throw new BHMethodNotFoundException(this, method);
     }
@@ -81,6 +83,7 @@ public final class EtiquetaTag__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty text$UHBY = MetaAdapterFactory.getProperty(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f01L, 0x2c774475217a8f53L, "text");
+    /*package*/ static final SProperty nombre$V1ZU = MetaAdapterFactory.getProperty(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f06L, 0x2c774475217a8f6aL, "nombre");
+    /*package*/ static final SProperty valor$leq1 = MetaAdapterFactory.getProperty(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f06L, 0x40ef7d13bc34a055L, "valor");
   }
 }

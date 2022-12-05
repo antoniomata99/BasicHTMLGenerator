@@ -211,6 +211,13 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="2LRh7kxuCW5" resolve="OpcionSelector" />
     </node>
+    <node concept="1TJgyj" id="43JvheWdp$A" role="1TKVEi">
+      <property role="IQ2ns" value="4679096061576714534" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contenidoOpcion" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2LRh7kxuCW6" resolve="ContenidoOpcion" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2LRh7kxuCW5">
     <property role="EcuMT" value="3204104929760939781" />
@@ -230,7 +237,12 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyi" id="2LRh7kxuCXE" role="1TKVEl">
       <property role="IQ2nx" value="3204104929760939882" />
-      <property role="TrG5h" value="text" />
+      <property role="TrG5h" value="nombre" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="43JvheWda1l" role="1TKVEl">
+      <property role="IQ2nx" value="4679096061576650837" />
+      <property role="TrG5h" value="valor" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
@@ -271,7 +283,12 @@
     </node>
     <node concept="1TJgyi" id="2LRh7kxvUzZ" role="1TKVEl">
       <property role="IQ2nx" value="3204104929761274111" />
-      <property role="TrG5h" value="text" />
+      <property role="TrG5h" value="nombre" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="43JvheWdlzG" role="1TKVEl">
+      <property role="IQ2nx" value="4679096061576698092" />
+      <property role="TrG5h" value="tipoBoton" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

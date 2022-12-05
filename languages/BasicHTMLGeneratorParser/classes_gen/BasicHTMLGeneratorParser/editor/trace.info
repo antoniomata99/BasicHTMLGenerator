@@ -1955,12 +1955,12 @@
       <node id="3204104929761213679" at="86,47,87,34" concept="1" />
       <node id="3204104929761213679" at="87,34,88,22" concept="6" />
       <node id="3204104929761213687" at="90,41,91,39" concept="1" />
-      <node id="3204104929761213687" at="92,9,93,49" concept="5" />
-      <node id="3204104929761213687" at="93,49,94,76" concept="1" />
+      <node id="3204104929761213687" at="92,9,93,51" concept="5" />
+      <node id="3204104929761213687" at="93,51,94,76" concept="1" />
       <node id="3204104929761213687" at="94,76,95,149" concept="5" />
-      <node id="3204104929761213687" at="95,149,96,45" concept="1" />
-      <node id="3204104929761213687" at="96,45,97,44" concept="1" />
-      <node id="3204104929761213687" at="97,44,98,86" concept="1" />
+      <node id="3204104929761213687" at="95,149,96,47" concept="1" />
+      <node id="3204104929761213687" at="96,47,97,46" concept="1" />
+      <node id="3204104929761213687" at="97,46,98,86" concept="1" />
       <node id="3204104929761213687" at="98,86,99,33" concept="1" />
       <node id="3204104929761213687" at="99,33,100,155" concept="5" />
       <node id="3204104929761213687" at="102,41,103,118" concept="6" />
@@ -1992,11 +1992,11 @@
       <node id="3204104929761213815" at="144,47,145,34" concept="1" />
       <node id="3204104929761213815" at="145,34,146,22" concept="6" />
       <node id="3204104929761213839" at="148,41,149,39" concept="1" />
-      <node id="3204104929761213839" at="150,9,151,49" concept="5" />
-      <node id="3204104929761213839" at="151,49,152,76" concept="1" />
+      <node id="3204104929761213839" at="150,9,151,50" concept="5" />
+      <node id="3204104929761213839" at="151,50,152,76" concept="1" />
       <node id="3204104929761213839" at="152,76,153,149" concept="5" />
-      <node id="3204104929761213839" at="153,149,154,45" concept="1" />
-      <node id="3204104929761213839" at="154,45,155,45" concept="1" />
+      <node id="3204104929761213839" at="153,149,154,46" concept="1" />
+      <node id="3204104929761213839" at="154,46,155,45" concept="1" />
       <node id="3204104929761213839" at="155,45,156,86" concept="1" />
       <node id="3204104929761213839" at="156,86,157,33" concept="1" />
       <node id="3204104929761213839" at="157,33,158,155" concept="5" />
@@ -2009,8 +2009,9 @@
       <node id="3204104929761213865" at="174,94,175,47" concept="1" />
       <node id="3204104929761213865" at="175,47,176,34" concept="1" />
       <node id="3204104929761213865" at="176,34,177,22" concept="6" />
-      <node id="3204104929761213661" at="181,0,182,0" concept="8" trace="text$V1ZU" />
-      <node id="3204104929761213661" at="185,0,186,0" concept="8" trace="PropertyAttribute$Gb" />
+      <node id="3204104929761213661" at="181,0,182,0" concept="8" trace="nombre$V1ZU" />
+      <node id="3204104929761213661" at="182,0,183,0" concept="8" trace="valor$leq1" />
+      <node id="3204104929761213661" at="186,0,187,0" concept="8" trace="PropertyAttribute$Gb" />
       <node id="3204104929761213661" at="33,0,35,0" concept="2" trace="myNode" />
       <node id="3204104929761213661" at="47,0,50,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3204104929761213687" at="102,0,105,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
@@ -2118,11 +2119,11 @@
       <scope id="3204104929761213839" at="148,41,171,5" />
       <scope id="3204104929761213687" at="90,0,115,0" />
       <scope id="3204104929761213839" at="148,0,173,0" />
-      <unit id="3204104929761213661" at="180,0,183,0" name="BasicHTMLGeneratorParser.editor.ContenidoOpcion_EditorBuilder_a$PROPS" />
-      <unit id="3204104929761213661" at="184,0,187,0" name="BasicHTMLGeneratorParser.editor.ContenidoOpcion_EditorBuilder_a$CONCEPTS" />
+      <unit id="3204104929761213661" at="185,0,188,0" name="BasicHTMLGeneratorParser.editor.ContenidoOpcion_EditorBuilder_a$CONCEPTS" />
       <unit id="3204104929761213687" at="101,102,105,7" name="BasicHTMLGeneratorParser.editor.ContenidoOpcion_EditorBuilder_a$1" />
       <unit id="3204104929761213839" at="159,102,163,7" name="BasicHTMLGeneratorParser.editor.ContenidoOpcion_EditorBuilder_a$2" />
-      <unit id="3204104929761213661" at="32,0,188,0" name="BasicHTMLGeneratorParser.editor.ContenidoOpcion_EditorBuilder_a" />
+      <unit id="3204104929761213661" at="180,0,184,0" name="BasicHTMLGeneratorParser.editor.ContenidoOpcion_EditorBuilder_a$PROPS" />
+      <unit id="3204104929761213661" at="32,0,189,0" name="BasicHTMLGeneratorParser.editor.ContenidoOpcion_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:7cad992f-2e9f-44ea-a27b-85a20564984a(BasicHTMLGeneratorParser.editor)/3204104929761233439">
@@ -2471,12 +2472,12 @@
       <node id="3204104929761274137" at="104,47,105,34" concept="1" />
       <node id="3204104929761274137" at="105,34,106,22" concept="6" />
       <node id="3204104929761274153" at="108,41,109,39" concept="1" />
-      <node id="3204104929761274153" at="110,9,111,49" concept="5" />
-      <node id="3204104929761274153" at="111,49,112,76" concept="1" />
+      <node id="3204104929761274153" at="110,9,111,51" concept="5" />
+      <node id="3204104929761274153" at="111,51,112,76" concept="1" />
       <node id="3204104929761274153" at="112,76,113,149" concept="5" />
-      <node id="3204104929761274153" at="113,149,114,45" concept="1" />
-      <node id="3204104929761274153" at="114,45,115,44" concept="1" />
-      <node id="3204104929761274153" at="115,44,116,86" concept="1" />
+      <node id="3204104929761274153" at="113,149,114,47" concept="1" />
+      <node id="3204104929761274153" at="114,47,115,46" concept="1" />
+      <node id="3204104929761274153" at="115,46,116,86" concept="1" />
       <node id="3204104929761274153" at="116,86,117,33" concept="1" />
       <node id="3204104929761274153" at="117,33,118,155" concept="5" />
       <node id="3204104929761274153" at="120,41,121,118" concept="6" />
@@ -2564,12 +2565,12 @@
       <node id="3204104929761274653" at="268,47,269,34" concept="1" />
       <node id="3204104929761274653" at="269,34,270,22" concept="6" />
       <node id="3204104929761274697" at="272,41,273,39" concept="1" />
-      <node id="3204104929761274697" at="274,9,275,49" concept="5" />
-      <node id="3204104929761274697" at="275,49,276,76" concept="1" />
+      <node id="3204104929761274697" at="274,9,275,54" concept="5" />
+      <node id="3204104929761274697" at="275,54,276,76" concept="1" />
       <node id="3204104929761274697" at="276,76,277,149" concept="5" />
-      <node id="3204104929761274697" at="277,149,278,45" concept="1" />
-      <node id="3204104929761274697" at="278,45,279,45" concept="1" />
-      <node id="3204104929761274697" at="279,45,280,86" concept="1" />
+      <node id="3204104929761274697" at="277,149,278,50" concept="1" />
+      <node id="3204104929761274697" at="278,50,279,49" concept="1" />
+      <node id="3204104929761274697" at="279,49,280,86" concept="1" />
       <node id="3204104929761274697" at="280,86,281,33" concept="1" />
       <node id="3204104929761274697" at="281,33,282,155" concept="5" />
       <node id="3204104929761274697" at="284,41,285,118" concept="6" />
@@ -2585,9 +2586,10 @@
       <node id="3204104929761274791" at="304,94,305,47" concept="1" />
       <node id="3204104929761274791" at="305,47,306,34" concept="1" />
       <node id="3204104929761274791" at="306,34,307,22" concept="6" />
-      <node id="3204104929761274083" at="311,0,312,0" concept="8" trace="text$GN17" />
-      <node id="3204104929761274083" at="315,0,316,0" concept="8" trace="PropertyAttribute$Gb" />
-      <node id="3204104929761274083" at="319,0,320,0" concept="8" trace="color$VatV" />
+      <node id="3204104929761274083" at="311,0,312,0" concept="8" trace="nombre$GN17" />
+      <node id="3204104929761274083" at="312,0,313,0" concept="8" trace="tipoBoton$9Ch7" />
+      <node id="3204104929761274083" at="316,0,317,0" concept="8" trace="PropertyAttribute$Gb" />
+      <node id="3204104929761274083" at="320,0,321,0" concept="8" trace="color$VatV" />
       <node id="3204104929761274083" at="41,0,43,0" concept="2" trace="myNode" />
       <node id="3204104929761274083" at="177,0,179,0" concept="2" trace="myNode" />
       <node id="3204104929761274083" at="55,0,58,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -2786,13 +2788,13 @@
         <var name="editorCell" id="3204104929761274083" />
       </scope>
       <scope id="3204104929761274083" at="59,0,87,0" />
-      <unit id="3204104929761274083" at="310,0,313,0" name="BasicHTMLGeneratorParser.editor.BotonTag_EditorBuilder_a$PROPS" />
-      <unit id="3204104929761274083" at="314,0,317,0" name="BasicHTMLGeneratorParser.editor.BotonTag_EditorBuilder_a$CONCEPTS" />
-      <unit id="3204104929761274083" at="318,0,321,0" name="BasicHTMLGeneratorParser.editor.BotonTag_EditorBuilder_a$LINKS" />
+      <unit id="3204104929761274083" at="315,0,318,0" name="BasicHTMLGeneratorParser.editor.BotonTag_EditorBuilder_a$CONCEPTS" />
+      <unit id="3204104929761274083" at="319,0,322,0" name="BasicHTMLGeneratorParser.editor.BotonTag_EditorBuilder_a$LINKS" />
       <unit id="3204104929761274153" at="119,102,123,7" name="BasicHTMLGeneratorParser.editor.BotonTag_EditorBuilder_a$1" />
       <unit id="3204104929761274697" at="283,102,287,7" name="BasicHTMLGeneratorParser.editor.BotonTag_EditorBuilder_a$2" />
+      <unit id="3204104929761274083" at="310,0,314,0" name="BasicHTMLGeneratorParser.editor.BotonTag_EditorBuilder_a$PROPS" />
       <unit id="3204104929761274083" at="176,0,227,0" name="BasicHTMLGeneratorParser.editor.BotonTag_EditorBuilder_a$colorSingleRoleHandler_q2gnq4_k0" />
-      <unit id="3204104929761274083" at="40,0,322,0" name="BasicHTMLGeneratorParser.editor.BotonTag_EditorBuilder_a" />
+      <unit id="3204104929761274083" at="40,0,323,0" name="BasicHTMLGeneratorParser.editor.BotonTag_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:7cad992f-2e9f-44ea-a27b-85a20564984a(BasicHTMLGeneratorParser.editor)/3204104929761299657">
