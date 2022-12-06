@@ -2873,58 +2873,60 @@
   </root>
   <root nodeRef="r:7cad992f-2e9f-44ea-a27b-85a20564984a(BasicHTMLGeneratorParser.editor)/4679096061575966126">
     <file name="ButtonFactory.java">
-      <node id="4679096061576281250" at="22,25,23,46" concept="5" />
-      <node id="4679096061576305225" at="23,46,24,33" concept="1" />
-      <node id="4679096061576325380" at="24,33,25,39" concept="5" />
-      <node id="4679096061576430544" at="26,13,27,44" concept="5" />
-      <node id="4679096061576451889" at="31,7,32,0" concept="7" />
-      <node id="4679096061576454725" at="32,0,33,18" concept="6" />
-      <node id="4679096061576061317" at="36,129,37,40" concept="5" />
-      <node id="4679096061576138567" at="37,40,38,139" concept="1" />
-      <node id="4679096061576237989" at="41,51,42,83" concept="1" />
-      <node id="4679096061576200831" at="44,7,45,18" concept="6" />
-      <node id="4679096061576410603" at="25,39,29,9" concept="11" />
-      <node id="4679096061576225941" at="40,0,44,0" concept="4" trace="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-      <node id="4679096061576206343" at="38,139,44,7" concept="1" />
-      <node id="4679096061576273791" at="21,0,31,0" concept="4" trace="run#()V" />
-      <node id="4679096061576050203" at="36,0,47,0" concept="9" trace="createButton#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;Ljava/lang/Runnable;)Ljavax/swing/JButton;" />
-      <node id="4679096061576261249" at="19,100,31,7" concept="5" />
-      <node id="4679096061576023065" at="19,0,35,0" concept="9" trace="createToHTMLButton#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
-      <scope id="4679096061576411597" at="28,33,28,33" />
-      <scope id="4679096061576410605" at="26,13,27,44">
-        <var name="fm" id="4679096061576430545" />
-      </scope>
-      <scope id="4679096061576411594" at="28,9,29,9">
+      <node id="4679096061576281250" at="23,25,24,46" concept="5" />
+      <node id="4679096061576305225" at="24,46,25,33" concept="1" />
+      <node id="4679096061576325380" at="25,33,26,39" concept="5" />
+      <node id="4679096061576430544" at="27,13,28,44" concept="5" />
+      <node id="124588492923858915" at="28,44,29,87" concept="1" />
+      <node id="124588492923890748" at="29,87,30,21" concept="1" />
+      <node id="4679096061576451889" at="34,7,35,0" concept="7" />
+      <node id="4679096061576454725" at="35,0,36,18" concept="6" />
+      <node id="4679096061576061317" at="39,129,40,40" concept="5" />
+      <node id="4679096061576138567" at="40,40,41,139" concept="1" />
+      <node id="4679096061576237989" at="44,51,45,83" concept="1" />
+      <node id="4679096061576200831" at="47,7,48,18" concept="6" />
+      <node id="4679096061576225941" at="43,0,47,0" concept="4" trace="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+      <node id="4679096061576410603" at="26,39,32,9" concept="11" />
+      <node id="4679096061576206343" at="41,139,47,7" concept="1" />
+      <node id="4679096061576050203" at="39,0,50,0" concept="9" trace="createButton#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;Ljava/lang/Runnable;)Ljavax/swing/JButton;" />
+      <node id="4679096061576273791" at="22,0,34,0" concept="4" trace="run#()V" />
+      <node id="4679096061576261249" at="20,100,34,7" concept="5" />
+      <node id="4679096061576023065" at="20,0,38,0" concept="9" trace="createToHTMLButton#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
+      <scope id="4679096061576411597" at="31,33,31,33" />
+      <scope id="4679096061576411594" at="31,9,32,9">
         <var name="e" id="4679096061576411595" />
       </scope>
-      <scope id="4679096061576225947" at="41,51,42,83" />
-      <scope id="4679096061576225941" at="40,0,44,0">
+      <scope id="4679096061576225947" at="44,51,45,83" />
+      <scope id="4679096061576410605" at="27,13,30,21">
+        <var name="fm" id="4679096061576430545" />
+      </scope>
+      <scope id="4679096061576225941" at="43,0,47,0">
         <var name="p0" id="4679096061576225945" />
       </scope>
-      <scope id="4679096061576273795" at="22,25,29,9">
+      <scope id="4679096061576273795" at="23,25,32,9">
         <var name="f" id="4679096061576325381" />
         <var name="jfc" id="4679096061576281251" />
       </scope>
-      <scope id="4679096061576050206" at="36,129,45,18">
+      <scope id="4679096061576050206" at="39,129,48,18">
         <var name="button" id="4679096061576061318" />
       </scope>
-      <scope id="4679096061576273791" at="21,0,31,0" />
-      <scope id="4679096061576050203" at="36,0,47,0">
+      <scope id="4679096061576050203" at="39,0,50,0">
         <var name="action" id="4679096061576056506" />
         <var name="editorContext" id="4679096061576054092" />
         <var name="node" id="4679096061576050755" />
         <var name="title" id="4679096061576055826" />
       </scope>
-      <scope id="4679096061576023068" at="19,100,33,18">
+      <scope id="4679096061576273791" at="22,0,34,0" />
+      <scope id="4679096061576023068" at="20,100,36,18">
         <var name="button" id="4679096061576261250" />
       </scope>
-      <scope id="4679096061576023065" at="19,0,35,0">
+      <scope id="4679096061576023065" at="20,0,38,0">
         <var name="editorContext" id="4679096061576023606" />
         <var name="node" id="4679096061576024415" />
       </scope>
-      <unit id="4679096061576225926" at="39,33,44,5" name="BasicHTMLGeneratorParser.editor.ButtonFactory$2" />
-      <unit id="4679096061576273776" at="20,77,31,5" name="BasicHTMLGeneratorParser.editor.ButtonFactory$1" />
-      <unit id="4679096061575966126" at="18,0,48,0" name="BasicHTMLGeneratorParser.editor.ButtonFactory" />
+      <unit id="4679096061576225926" at="42,33,47,5" name="BasicHTMLGeneratorParser.editor.ButtonFactory$2" />
+      <unit id="4679096061576273776" at="21,77,34,5" name="BasicHTMLGeneratorParser.editor.ButtonFactory$1" />
+      <unit id="4679096061575966126" at="19,0,51,0" name="BasicHTMLGeneratorParser.editor.ButtonFactory" />
     </file>
   </root>
   <root nodeRef="r:7cad992f-2e9f-44ea-a27b-85a20564984a(BasicHTMLGeneratorParser.editor)/5629444168963453566">

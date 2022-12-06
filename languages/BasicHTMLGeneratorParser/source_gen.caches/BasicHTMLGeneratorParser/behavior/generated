@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-287kc0of6quq0wnan1h2ykjcyl9lzv8">
-  <files names="BehaviorAspectDescriptor.java:ContenidoOpcion__BehaviorDescriptor.java:EtiquetaTag__BehaviorDescriptor.java:Etiqueta__BehaviorDescriptor.java:EtiquetasTag__BehaviorDescriptor.java:OpcionSelector__BehaviorDescriptor.java:Opcion__BehaviorDescriptor.java" />
+<product version="3" modelHash="8lo8mdyxrl0g4ujsqiwf96hlyt5gmee">
+  <files names="BehaviorAspectDescriptor.java:BotonTag__BehaviorDescriptor.java:BotonsTag__BehaviorDescriptor.java:Color__BehaviorDescriptor.java:Columna__BehaviorDescriptor.java:Componentes__BehaviorDescriptor.java:ContenidoOpcion__BehaviorDescriptor.java:Document__BehaviorDescriptor.java:ElementBoton__BehaviorDescriptor.java:Element__BehaviorDescriptor.java:Elements__BehaviorDescriptor.java:EtiquetaTag__BehaviorDescriptor.java:Etiqueta__BehaviorDescriptor.java:EtiquetasTag__BehaviorDescriptor.java:Formulario__BehaviorDescriptor.java:OpcionSelector__BehaviorDescriptor.java:Opcion__BehaviorDescriptor.java:OpcionsSelector__BehaviorDescriptor.java:SelectorsTag__BehaviorDescriptor.java" />
 </product>
 

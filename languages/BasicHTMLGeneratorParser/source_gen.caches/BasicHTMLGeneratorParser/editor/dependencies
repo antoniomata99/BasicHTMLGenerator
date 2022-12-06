@@ -102,6 +102,7 @@
     <classNode extendsClassName="jetbrains.mps.editor.runtime.descriptor.AbstractEditorBuilder" />
   </dependency>
   <dependency className="BasicHTMLGeneratorParser.editor.ButtonFactory">
+    <classNode dependClassName="BasicHTMLGeneratorParser.behavior.Document__BehaviorDescriptor" />
     <classNode dependClassName="java.awt.Font" />
     <classNode dependClassName="java.awt.event.ActionEvent" />
     <classNode dependClassName="java.awt.event.ActionListener" />

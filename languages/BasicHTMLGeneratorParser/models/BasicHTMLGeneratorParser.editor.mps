@@ -16,6 +16,7 @@
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="dj03" ref="r:0c17d016-a857-41a8-b682-c013a2b0f7de(BasicHTMLGeneratorParser.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -177,6 +178,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -708,7 +710,7 @@
                     <property role="2bfB8j" value="true" />
                     <property role="373rjd" value="true" />
                     <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                     <node concept="3Tm1VV" id="43JvheWbHXL" role="1B3o_S" />
                     <node concept="3clFb_" id="43JvheWbHXZ" role="jymVt">
                       <property role="TrG5h" value="run" />
@@ -786,11 +788,39 @@
                                 </node>
                               </node>
                             </node>
+                            <node concept="3clFbF" id="6UC9bZOYZz" role="3cqZAp">
+                              <node concept="2OqwBi" id="6UC9bZP3jS" role="3clFbG">
+                                <node concept="37vLTw" id="6UC9bZOYZx" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="43JvheWckfh" resolve="fm" />
+                                </node>
+                                <node concept="liA8E" id="6UC9bZP3S3" role="2OqNvi">
+                                  <ref role="37wK5l" to="guwi:~Writer.write(java.lang.String)" resolve="write" />
+                                  <node concept="2OqwBi" id="6UC9bZP5tG" role="37wK5m">
+                                    <node concept="37vLTw" id="6UC9bZP5b5" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="43JvheWaL5v" resolve="node" />
+                                    </node>
+                                    <node concept="2qgKlT" id="6UC9bZP5RL" role="2OqNvi">
+                                      <ref role="37wK5l" to="dj03:6UC9bZMDOy" resolve="interpretar" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbF" id="6UC9bZP6KW" role="3cqZAp">
+                              <node concept="2OqwBi" id="6UC9bZP8Xz" role="3clFbG">
+                                <node concept="37vLTw" id="6UC9bZP6KU" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="43JvheWckfh" resolve="fm" />
+                                </node>
+                                <node concept="liA8E" id="6UC9bZP9Oy" role="2OqNvi">
+                                  <ref role="37wK5l" to="guwi:~OutputStreamWriter.close()" resolve="close" />
+                                </node>
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="43JvheWbHY5" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                   </node>
@@ -907,7 +937,7 @@
                     <property role="2bfB8j" value="true" />
                     <property role="373rjd" value="true" />
                     <ref role="1Y3XeK" to="hyam:~ActionListener" resolve="ActionListener" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                     <node concept="3Tm1VV" id="43JvheWbyi7" role="1B3o_S" />
                     <node concept="3clFb_" id="43JvheWbyil" role="jymVt">
                       <property role="TrG5h" value="actionPerformed" />
@@ -945,7 +975,7 @@
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="43JvheWbyit" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                   </node>

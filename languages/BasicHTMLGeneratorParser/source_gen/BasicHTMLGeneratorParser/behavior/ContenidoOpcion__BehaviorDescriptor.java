@@ -33,7 +33,7 @@ public final class ContenidoOpcion__BehaviorDescriptor extends BaseBHDescriptor 
     String nombre = SPropertyOperations.getString(__thisNode__, PROPS.nombre$V1ZU);
     String valor = SPropertyOperations.getString(__thisNode__, PROPS.valor$leq1);
 
-    return String.format("<option value='%s'>%s</option>", valor, nombre);
+    return String.format("<option value='%s'>%s\n", valor, nombre);
   }
 
   /*package*/ ContenidoOpcion__BehaviorDescriptor() {

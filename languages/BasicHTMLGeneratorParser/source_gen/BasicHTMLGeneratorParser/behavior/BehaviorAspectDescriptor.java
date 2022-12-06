@@ -12,12 +12,24 @@ import jetbrains.mps.lang.smodel.ConceptSwitchIndexBuilder;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor {
+  private final BHDescriptor myColumna__BehaviorDescriptor = new Columna__BehaviorDescriptor();
+  private final BHDescriptor myElement__BehaviorDescriptor = new Element__BehaviorDescriptor();
+  private final BHDescriptor myComponentes__BehaviorDescriptor = new Componentes__BehaviorDescriptor();
   private final BHDescriptor myEtiquetasTag__BehaviorDescriptor = new EtiquetasTag__BehaviorDescriptor();
   private final BHDescriptor myEtiqueta__BehaviorDescriptor = new Etiqueta__BehaviorDescriptor();
   private final BHDescriptor myEtiquetaTag__BehaviorDescriptor = new EtiquetaTag__BehaviorDescriptor();
+  private final BHDescriptor mySelectorsTag__BehaviorDescriptor = new SelectorsTag__BehaviorDescriptor();
+  private final BHDescriptor myOpcionsSelector__BehaviorDescriptor = new OpcionsSelector__BehaviorDescriptor();
   private final BHDescriptor myOpcion__BehaviorDescriptor = new Opcion__BehaviorDescriptor();
   private final BHDescriptor myOpcionSelector__BehaviorDescriptor = new OpcionSelector__BehaviorDescriptor();
   private final BHDescriptor myContenidoOpcion__BehaviorDescriptor = new ContenidoOpcion__BehaviorDescriptor();
+  private final BHDescriptor myBotonsTag__BehaviorDescriptor = new BotonsTag__BehaviorDescriptor();
+  private final BHDescriptor myElementBoton__BehaviorDescriptor = new ElementBoton__BehaviorDescriptor();
+  private final BHDescriptor myBotonTag__BehaviorDescriptor = new BotonTag__BehaviorDescriptor();
+  private final BHDescriptor myColor__BehaviorDescriptor = new Color__BehaviorDescriptor();
+  private final BHDescriptor myFormulario__BehaviorDescriptor = new Formulario__BehaviorDescriptor();
+  private final BHDescriptor myDocument__BehaviorDescriptor = new Document__BehaviorDescriptor();
+  private final BHDescriptor myElements__BehaviorDescriptor = new Elements__BehaviorDescriptor();
 
   public BehaviorAspectDescriptor() {
   }
@@ -27,20 +39,44 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
     SAbstractConcept cncpt = concept;
     switch (conceptIndex.index(cncpt)) {
       case 0:
-        return myContenidoOpcion__BehaviorDescriptor;
+        return myBotonTag__BehaviorDescriptor;
       case 1:
-        return myEtiqueta__BehaviorDescriptor;
+        return myBotonsTag__BehaviorDescriptor;
       case 2:
-        return myEtiquetaTag__BehaviorDescriptor;
+        return myColor__BehaviorDescriptor;
       case 3:
-        return myEtiquetasTag__BehaviorDescriptor;
+        return myColumna__BehaviorDescriptor;
       case 4:
-        return myOpcion__BehaviorDescriptor;
+        return myComponentes__BehaviorDescriptor;
       case 5:
+        return myContenidoOpcion__BehaviorDescriptor;
+      case 6:
+        return myDocument__BehaviorDescriptor;
+      case 7:
+        return myElement__BehaviorDescriptor;
+      case 8:
+        return myElementBoton__BehaviorDescriptor;
+      case 9:
+        return myElements__BehaviorDescriptor;
+      case 10:
+        return myEtiqueta__BehaviorDescriptor;
+      case 11:
+        return myEtiquetaTag__BehaviorDescriptor;
+      case 12:
+        return myEtiquetasTag__BehaviorDescriptor;
+      case 13:
+        return myFormulario__BehaviorDescriptor;
+      case 14:
+        return myOpcion__BehaviorDescriptor;
+      case 15:
         return myOpcionSelector__BehaviorDescriptor;
+      case 16:
+        return myOpcionsSelector__BehaviorDescriptor;
+      case 17:
+        return mySelectorsTag__BehaviorDescriptor;
       default:
     }
     return null;
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f06L), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f00L), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f01L), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8effL), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f04L), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f05L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f09L), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f07L), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f0aL), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8efcL), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8efeL), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f06L), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x4e1fcda545f5ef3bL), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8efdL), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f08L), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x4e1fcda545f5ef3cL), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f00L), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f01L), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8effL), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f1eL), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f04L), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f05L), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f03L), MetaIdFactory.conceptId(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f02L)).seal();
 }

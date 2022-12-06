@@ -9,6 +9,7 @@ import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import java.io.File;
 import java.io.FileWriter;
+import BasicHTMLGeneratorParser.behavior.Document__BehaviorDescriptor;
 import java.io.IOException;
 import java.awt.Font;
 import jetbrains.mps.nodeEditor.EditorSettings;
@@ -25,6 +26,8 @@ public class ButtonFactory {
         File f = jfc.getSelectedFile();
         try {
           FileWriter fm = new FileWriter(f);
+          fm.write(Document__BehaviorDescriptor.interpretar_id6UC9bZMDOy.invoke(node));
+          fm.close();
         } catch (IOException e) {
         }
       }

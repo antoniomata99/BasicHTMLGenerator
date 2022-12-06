@@ -35,7 +35,7 @@ public final class Etiqueta__BehaviorDescriptor extends BaseBHDescriptor {
     for (SNode uEtiquetasTag : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.etiquetaTag$UA6Z))) {
       div = div + EtiquetaTag__BehaviorDescriptor.interpreter_id43JvheW9DAT.invoke(uEtiquetasTag) + "\n";
     }
-    div = div + "</div>";
+    div = div + "</div>\n";
 
     return div;
   }

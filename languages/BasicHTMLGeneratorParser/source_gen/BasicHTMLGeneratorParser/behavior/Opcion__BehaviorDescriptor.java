@@ -13,9 +13,12 @@ import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public final class Opcion__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f04L, "BasicHTMLGeneratorParser.structure.Opcion");
@@ -29,6 +32,11 @@ public final class Opcion__BehaviorDescriptor extends BaseBHDescriptor {
 
   /*package*/ static String interpreter_id43JvheWdVji(@NotNull SNode __thisNode__) {
     String select = "<select>\n";
+    for (SNode OpcionSelectorLoop : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.opcionSelector$UOB3))) {
+      select = select + OpcionSelector__BehaviorDescriptor.interpreter_id43JvheWeh9u.invoke(OpcionSelectorLoop) + "\n";
+    }
+    select = select + "</select>\n";
+    return select;
   }
 
   /*package*/ Opcion__BehaviorDescriptor() {
@@ -75,5 +83,9 @@ public final class Opcion__BehaviorDescriptor extends BaseBHDescriptor {
   @Override
   public SAbstractConcept getConcept() {
     return CONCEPT;
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink opcionSelector$UOB3 = MetaAdapterFactory.getContainmentLink(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f04L, 0x2c774475217a8f5bL, "opcionSelector");
   }
 }
