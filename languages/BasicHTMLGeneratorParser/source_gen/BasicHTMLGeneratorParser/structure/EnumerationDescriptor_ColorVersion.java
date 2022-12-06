@@ -15,14 +15,11 @@ public class EnumerationDescriptor_ColorVersion extends EnumerationDescriptorBas
     super(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c77447521800c96L, "ColorVersion", "r:b0473809-af0c-4a38-9b87-8a1cd23e0d1d(BasicHTMLGeneratorParser.structure)/3204104929761299606");
   }
 
-  private final EnumerationDescriptor.MemberDescriptor myMember_white_0 = new EnumerationDescriptor.MemberDescriptor("white", "WHITE", 0x2c77447521800c97L, "r:b0473809-af0c-4a38-9b87-8a1cd23e0d1d(BasicHTMLGeneratorParser.structure)/3204104929761299607");
-  private final EnumerationDescriptor.MemberDescriptor myMember_black_0 = new EnumerationDescriptor.MemberDescriptor("black", "BLACK", 0x2c77447521800c98L, "r:b0473809-af0c-4a38-9b87-8a1cd23e0d1d(BasicHTMLGeneratorParser.structure)/3204104929761299608");
-  private final EnumerationDescriptor.MemberDescriptor myMember_green_0 = new EnumerationDescriptor.MemberDescriptor("green", "GREEN", 0x2c77447521800c9bL, "r:b0473809-af0c-4a38-9b87-8a1cd23e0d1d(BasicHTMLGeneratorParser.structure)/3204104929761299611");
-  private final EnumerationDescriptor.MemberDescriptor myMember_pink_0 = new EnumerationDescriptor.MemberDescriptor("pink", "PINK", 0x2c77447521800c9fL, "r:b0473809-af0c-4a38-9b87-8a1cd23e0d1d(BasicHTMLGeneratorParser.structure)/3204104929761299615");
-  private final EnumerationDescriptor.MemberDescriptor myMember_yellow_0 = new EnumerationDescriptor.MemberDescriptor("yellow", "YELLOW", 0x2c77447521800caeL, "r:b0473809-af0c-4a38-9b87-8a1cd23e0d1d(BasicHTMLGeneratorParser.structure)/3204104929761299630");
+  private final EnumerationDescriptor.MemberDescriptor myMember_primary_0 = new EnumerationDescriptor.MemberDescriptor("primary", "is-primary", 0x2c77447521800c97L, "r:b0473809-af0c-4a38-9b87-8a1cd23e0d1d(BasicHTMLGeneratorParser.structure)/3204104929761299607");
+  private final EnumerationDescriptor.MemberDescriptor myMember_link_0 = new EnumerationDescriptor.MemberDescriptor("link", "is-link", 0x40ef7d13bc2a2d85L, "r:b0473809-af0c-4a38-9b87-8a1cd23e0d1d(BasicHTMLGeneratorParser.structure)/4679096061575966085");
 
-  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c77447521800c96L, 0x2c77447521800c97L, 0x2c77447521800c98L, 0x2c77447521800c9bL, 0x2c77447521800c9fL, 0x2c77447521800caeL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_white_0, myMember_black_0, myMember_green_0, myMember_pink_0, myMember_yellow_0);
+  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c77447521800c96L, 0x2c77447521800c97L, 0x40ef7d13bc2a2d85L);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_primary_0, myMember_link_0);
 
   @Nullable
   @Override
@@ -43,16 +40,10 @@ public class EnumerationDescriptor_ColorVersion extends EnumerationDescriptorBas
       return null;
     }
     switch (memberName) {
-      case "white":
-        return myMember_white_0;
-      case "black":
-        return myMember_black_0;
-      case "green":
-        return myMember_green_0;
-      case "pink":
-        return myMember_pink_0;
-      case "yellow":
-        return myMember_yellow_0;
+      case "primary":
+        return myMember_primary_0;
+      case "link":
+        return myMember_link_0;
     }
     return null;
   }

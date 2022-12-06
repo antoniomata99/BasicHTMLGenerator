@@ -111,7 +111,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:b0473809-af0c-4a38-9b87-8a1cd23e0d1d(BasicHTMLGeneratorParser.structure)/3204104929760939785");
     b.version(3);
-    b.property("text", 0x2c774475217fa8ffL).type(PrimitiveTypeId.STRING).origin("3204104929761274111").done();
+    b.property("nombre", 0x2c774475217fa8ffL).type(PrimitiveTypeId.STRING).origin("3204104929761274111").done();
+    b.property("tipoBoton", 0x40ef7d13bc3558ecL).type(PrimitiveTypeId.STRING).origin("4679096061576698092").done();
     b.aggregate("color", 0x2c774475217a8f79L).target(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f0aL).optional(false).ordered(true).multiple(false).origin("3204104929760939897").done();
     return b.create();
   }
@@ -154,7 +155,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:b0473809-af0c-4a38-9b87-8a1cd23e0d1d(BasicHTMLGeneratorParser.structure)/3204104929760939782");
     b.version(3);
-    b.property("text", 0x2c774475217a8f6aL).type(PrimitiveTypeId.STRING).origin("3204104929760939882").done();
+    b.property("nombre", 0x2c774475217a8f6aL).type(PrimitiveTypeId.STRING).origin("3204104929760939882").done();
+    b.property("valor", 0x40ef7d13bc34a055L).type(PrimitiveTypeId.STRING).origin("4679096061576650837").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForDocument() {
@@ -232,6 +234,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:b0473809-af0c-4a38-9b87-8a1cd23e0d1d(BasicHTMLGeneratorParser.structure)/3204104929760939780");
     b.version(3);
     b.aggregate("opcionSelector", 0x2c774475217a8f5bL).target(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f05L).optional(false).ordered(true).multiple(true).origin("3204104929760939867").done();
+    b.aggregate("contenidoOpcion", 0x40ef7d13bc359926L).target(0xc5b04c8306054412L, 0x977887c884988a45L, 0x2c774475217a8f06L).optional(false).ordered(true).multiple(false).origin("4679096061576714534").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForOpcionSelector() {
